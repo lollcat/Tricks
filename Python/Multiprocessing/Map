@@ -1,0 +1,5 @@
+from concurrent.futures import ProcessPoolExecutor
+# func is the function
+# arg_list1 & 2 are sequences of arguments passed to func
+with ProcessPoolExecutor(max_workers=8) as executor:
+    result = executor.map(func, arg_list1, arg_list2) 
