@@ -1,0 +1,7 @@
+import pickle
+# How to save
+with open("object.pkl", "wb") as f:
+    pickle.dump(data, f)
+
+# How to load
+vectors = pickle.load(open("object.pkl", "rb"))
