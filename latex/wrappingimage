@@ -1,0 +1,5 @@
+\begin{wrapfigure}{L}{0.25\textwidth}
+\centering
+\caption{\label{fig:complexity}Runtime plotted against $n$}
+\includegraphics[width=0.5\textwidth]{Runtime.jpg}
+\end{wrapfigure}
