@@ -1,0 +1,5 @@
+plt.rcParams.update({'font.weight': 'normal'})
+plt.rcParams.update({'font.size': 20})
+plt.rcParams.update({'lines.linewidth' : 2})
+
+# REMEMBER NOT TO USE %matplotlib inline IN SAME JUPYTER CELL
