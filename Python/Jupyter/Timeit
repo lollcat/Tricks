@@ -1,3 +1,4 @@
 time = %timeit -o -n 2 func()
 # -o returns the time
 # -n specifies the number of steps
+# if you don't specify number of -n it does selects the "correct" n automatically (which is probs better)
