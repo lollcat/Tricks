@@ -1,0 +1,7 @@
+# To create
+# TODO write out
+
+# ONCE CREATED
+git add -A # add files
+git commit -m "This is the commit message"
+git push
