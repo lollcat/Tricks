@@ -1,0 +1,4 @@
+## Interactivate Matplotlib
+```
+%matplotlib notebook
+```
