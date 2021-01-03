@@ -7,6 +7,7 @@ remove a folder (recursivley delete contents) : rm -r filename
 Run multiple programs, prevent disconnect stopping program
    - screen -S session_name
    - screen -r session_name
+   - ctrl + A, :sessionname mySessionName
    
 ## Python
 Run python file
