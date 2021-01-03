@@ -1,0 +1,4 @@
+command = ["../tools/steps/step-xwtri", "-NUMMIXES", str(num_mixes), "-ROVAL", str(roval), "-TBVAL",
+               str(tbval), monophone_model_path, f"hmm{monophone_hmm_number}", model_path]
+subprocess.Popen(args=command)  # to run in background
+subprocess.run(args=command)  # to run normally
