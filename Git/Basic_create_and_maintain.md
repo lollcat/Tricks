@@ -12,7 +12,7 @@ git push -u origin main
 ```
 
 ## Clone a single branch
-git clone <url> --branch <branch> --single-branch [<folder>]
+git clone <url> --branch <branch> --single-branch <local_folder>
                 
 
 ## Once created
