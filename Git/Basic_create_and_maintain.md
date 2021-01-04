@@ -10,6 +10,9 @@ git branch -M main
 git remote add origin https://github.com/lollcat/repository.git       # if you want to add to a branch instead then "git remote add branch etc"
 git push -u origin main
 ```
+
+## Clone a single branch
+git clone <url> --branch <branch> --single-branch [<folder>]
                 
 
 ## Once created
