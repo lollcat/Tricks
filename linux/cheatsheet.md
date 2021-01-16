@@ -4,8 +4,8 @@
 Double ssh (port 6000 now takes you to target_server_ip):
    - ssh -L 6000:<target_server_ip>:22 <proxy_server_user>@<proxy_server_ip>
 <br>
-Can now connect to target_server_ip with below line (can also now use below line to connect Pycharm to server)
-ssh -p 6000 <target_server_user>@localhost
+Can now connect to target_server_ip with below line (can also now use below line to connect Pycharm to server):
+   - ssh -p 6000 <target_server_user>@localhost
 
 ## Basic
 remove a folder (recursivley delete contents) : rm -r filename	
