@@ -13,7 +13,8 @@ remove a folder (recursivley delete contents) :
 
 ## Session 
 Run multiple programs, prevent disconnect stopping program
-```screen -S session_name # start screen
+```
+screen -S session_name # start screen
 screen -r session_name # connect
 ctrl + A, :sessionname mySessionName   # rename screen
   ```
