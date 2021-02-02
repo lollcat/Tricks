@@ -14,5 +14,7 @@ print([dogfish for dogfish in dogfishes])
 ## Font stuff
 **Bold** and _Italic_
 
-Images
+#Images
+```
 ![](image.png)
+```
