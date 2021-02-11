@@ -1,0 +1,7 @@
+from datetime import datetime
+current_time = datetime.now().strftime("%Y_%m_%d-%I_%M_%S_%p")
+
+# then save file using:
+f.save(os.path.join(os.getcwd(), current_time, "whatever_name_you_want"))
+
+# outputs the time as: '2021_02_11-04_37_44_PM' so more readable than using time.time method.
