@@ -2,7 +2,7 @@
 if not os.path.exists(os.path.join(os.getcwd(), target_path)): # check if path exists, also shows how to use os join
     os.makedirs(os.path.join(os.getcwd(), target_path))
     
-# this is better
+# this is better for making new folders if they don't exist: makes parent directory if it doens't exist
 pathlib.Path(os.path.join(os.getcwd(), target_file)).parent.mkdir(parents=True, exist_ok=True)
     
     
