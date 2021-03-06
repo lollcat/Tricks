@@ -7,9 +7,21 @@ git init
 git add README.md # can also "git add -A" if there are already files in the folder 
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/lollcat/repository.git       # if you want to add to a branch instead then "git remote add branch etc"
+git remote add origin https://github.com/lollcat/repository.git      
 git push -u origin main
 ```
+
+# Add a new feature branch
+```
+echo "# Metaheuristic_optimisation" >> README.md
+git init
+git add README.md # can also "git add -A" if there are already files in the folder 
+git commit -m "first commit"
+git branch -M feature_branch_name
+git remote add origin https://github.com/lollcat/repository.git      
+git push -u origin feature_branch_name
+```
+
 
 ## Clone a single branch
 git clone **url** --branch **branch** --single-branch **local_folder**
