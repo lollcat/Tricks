@@ -17,6 +17,7 @@ Run multiple programs, prevent disconnect stopping program
 screen -S session_name # start screen
 screen -r session_name # connect
 ctrl + A, :sessionname mySessionName   # rename screen
+screen -r -d session_name # retach to a screen that says "attached" when screen -ls, but isn't actually attached
   ```
 ## Python
 Run python file
