@@ -19,6 +19,15 @@ screen -r session_name # connect
 ctrl + A, :sessionname mySessionName   # rename screen
 screen -r -d session_name # retach to a screen that says "attached" when screen -ls, but isn't actually attached
   ```
+  
+## Jupyter Server
+```
+# https://ljvmiranda921.github.io/notebook/2018/01/31/running-a-jupyter-notebook/
+jupyter notebook --no-browser --port=XXXX # activate
+ssh -N -f -L localhost:YYYY:localhost:XXXX remoteuser@remotehost # port forward
+localhost:YYYY # paste into browser to connect
+```
+
 ## Python
 Run python file
    - python filename.py
