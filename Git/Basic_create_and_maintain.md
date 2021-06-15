@@ -2,7 +2,7 @@
 just follow the github instructions
 
 ```
-echo "# Metaheuristic_optimisation" >> README.md
+echo "# Metaheuristic_optimisation" >> README.md # Start repository with a README
 git init
 git add README.md # can also "git add -A" if there are already files in the folder 
 git commit -m "first commit"
