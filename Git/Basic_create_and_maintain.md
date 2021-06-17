@@ -33,3 +33,9 @@ git add -A # add files
 git commit -m "This is the commit message"
 git push
 ```
+
+## To ignore a folder
+Make a file called .gitignore and type the folder path as such:
+```
+folder_to_ignore/
+```
