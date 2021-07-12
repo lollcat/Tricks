@@ -41,3 +41,11 @@ Run 2 python files in **sequence** (first script need not run successfully)
 Run 2 python files in **parallel**
    - python file1.py & python file2.py
    
+## Running things from pycharm in terminal
+```
+# to prevent import errors
+import os
+import sys
+if not os.getcwd() in sys.path:
+    sys.path.append(os.getcwd())
+```
