@@ -48,4 +48,5 @@ import os
 import sys
 if not os.getcwd() in sys.path:
     sys.path.append(os.getcwd())
+now we can go call from the parent dir: python subdir/subsubdir.python_file.py
 ```
