@@ -39,3 +39,10 @@ Make a file called .gitignore and type the folder path as such:
 ```
 folder_to_ignore/
 ```
+
+## Pull overwriting local where different
+```
+# https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
+git reset --hard HEAD   
+git pull
+```
