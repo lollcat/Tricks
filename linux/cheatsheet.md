@@ -50,3 +50,9 @@ if not os.getcwd() in sys.path:
     sys.path.append(os.getcwd())
 now we can go call from the parent dir: python subdir/subsubdir.python_file.py
 ```
+## Double port forward for jupyter no browser
+```
+ssh -t -l usr3 -L:7119:localhost:7119 -L:6042:localhost:6042 gate.eng.cam.ac.uk ssh -L:7119:localhost:7119 -L:6042:localhost:6006 computer1
+ jupyter notebook --no-browser --port=7119
+ ```
+ 
